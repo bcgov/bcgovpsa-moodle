@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * BCGovPSA config.
+ * BCGovPSA config. 
  *
  * @package   theme_bcgovpsa
  * @copyright 2023 Allan.Haggett@gov.bc.ca
