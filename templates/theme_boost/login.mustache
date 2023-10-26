@@ -34,70 +34,90 @@
 <body {{{ bodyattributes }}}>
 {{> core/local/toast/wrapper}}
 
-<div id="page-wrapper">
+<div class="bg-light">
 
     {{{ output.standard_top_of_body_html }}}
 
-    <div id="page" class="container-fluid pt-5 mt-0">
-        <div id="page-content" class="row">
-            <div id="region-main-box" class="col-12">
-                <section id="region-main" class="col-12 h-100" aria-label="{{#str}}content{{/str}}">
-                <div class="login-wrapper">
-                    <div class="login-container">
-                    
-                    {{{ output.main_content }}}
-
-                </div>
-                </section>
+    <div class="container pt-3">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8 col-lg-6 mb-5">
+            <div class="p-3 bg-white rounded-lg">
+                {{{ output.main_content }}}
             </div>
+            </div>
+        </div>
+        <div class="row pb-6 justify-content-md-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white mb-3 p-3 rounded-lg">
+                    <div class="">
+                        <h5 class="">Enroll via PSA Learning System</h5>
+                        <p class="">Make sure to sign up for your course by 
+                            visiting the PSA Learning System.&nbsp;Once enrolled, 
+                            you will be provided a link to your Moodle course 
+                            with a confirmation email sent to your inbox.
+                            <span style="font-size: 0.9375rem;"></span>
+                        </p>
+                        <a href="https://learning.gov.bc.ca/psc/CHIPSPLM/EMPLOYEE/ELM/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?" target="_blank" class="btn btn-secondary">
+                            PSA Learning System
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white mb-3 p-3 rounded-lg">
+                    <div class="">
+                        <h5 class="">LearningHUB</h5>
+                        <p class="">
+                            Learning for BC Public Service employees. 
+                            All in one place. <strong>You’re here to learn. 
+                            We’re here to help you.</strong> Take advantage of 
+                            courses, workshops and other career learning available 
+                            to <em>all</em> employees.
+                        </p>
+                        <a href="https://learningcentre.gww.gov.bc.ca/learninghub/" target="_blank" class="btn btn-secondary">
+                            Visit the LearningHUB
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white mb-3 p-3 rounded-lg">
+                    <div class="">
+                        <h5 class="">Experiencing issues?</h5>
+                        <p class="">Click on the button below for more 
+                            information on how to submit a Service Request 
+                            Form. In the subject area, type, "Moodle", 
+                            select <strong>Corporate Learning</strong>, 
+                            then choose your topic of concern. </p>
+                        <a href="https://www2.gov.bc.ca/gov/content/careers-myhr/bcpsa/contact-the-bc-public-service-agency" target="_blank" class="btn btn-secondary">
+                            Contact BC PSA
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="bg-white mb-3 p-3 rounded-lg">
+                    <div class="">
+                        <h5 class="">Multi-Factor Authentication</h5>
+                        <p class="">Having trouble with MFA? Get information 
+                        on how to register your government devices, learn 
+                        about your MFA options, additional technical support, 
+                        and find frequently asked questions.</p>
+                        <a href="https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa?" target="_blank" class="btn btn-secondary">
+                            Information on MFA
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
         </div>
     </div>
-  
+    
 
-    <div class="row">
-
-        <div class="col-sm-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Enroll via PSA Learning System</h5>
-                    <p class="card-text">Make sure to sign up for your course by visiting the PSA Learning System.&nbsp;Once enrolled in the course, you will be provided a link to your course with a confirmation email sent to your inbox.&nbsp;<span style="font-size: 0.9375rem;"></span></p>
-                    <a href="https://learning.gov.bc.ca/psc/CHIPSPLM/EMPLOYEE/ELM/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?" target="_blank" class="btn btn-primary">View PSA Learning System</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">LearningHUB</h5>
-                    <p class="card-text">Learning for BC Public Service employees. All in one place.&nbsp;<strong>You’re here to learn. We’re here to help you.&nbsp;</strong>Take advantage of courses, workshops and other career learning available to&nbsp;<em>all&nbsp;</em>employees.<span style="font-size: 0.9375rem;"></span></p>
-                    <a href="https://learningcentre.gww.gov.bc.ca/learninghub/" target="_blank" class="btn btn-primary">Visit the LearningHub</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Experiencing issues?</h5>
-                    <p class="card-text">Click on the button below for more information on how to submit a Service Request Form. In the subject area, type, "Moodle", select the&nbsp;<strong>Learning Centre</strong>&nbsp;then choose your topic of concern.<span style="font-size: 0.9375rem;"></span></p>
-                    <a href="https://www2.gov.bc.ca/gov/content/careers-myhr/bcpsa/contact-the-bc-public-service-agency" target="_blank" class="btn btn-primary">Contact BC PSA</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Multi-Factor Authentication</h5>
-                    <p class="card-text">Having trouble with MFA? Click on the button below for more information on how to register your government devices, learn about your MFA options, additional technical support, and find frequently asked questions.</p>
-                    <a href="https://intranet.gov.bc.ca/thehub/ocio/ocio-enterprise-services/information-security-branch/information-security-mfa?" target="_blank" class="btn btn-primary">Information on MFA</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
     {{> theme_boost/footer }}
 </div>
 
