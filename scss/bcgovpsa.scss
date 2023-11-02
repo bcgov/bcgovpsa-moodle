@@ -1,0 +1,22 @@
+/** 
+* 
+* BC Public Service Agency's Moodle installation custom CSS 
+* overrides.
+* @author: allan.haggett@gov.bc.ca
+*
+*/
+.dropdown-toggle::after,
+.editmode-switch-form label,
+.primary-navigation .navigation .nav-link {
+    color: #FFF;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #0f6cbf;
+}
+.moremenu .nav-link.active,
+.moremenu .nav-link.active:focus, 
+.moremenu .nav-link.active:hover {
+    border-bottom-color: #eda927;
+}

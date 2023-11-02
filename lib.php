@@ -36,6 +36,7 @@ function theme_bcgovpsa_get_main_scss_content($theme) {
     if ($filename == 'default.scss') {                                                                                              
         // We still load the default preset files directly from the boost theme. No sense in duplicating them.                      
         $scss .= file_get_contents($CFG->dirroot . '/theme/boost/scss/preset/default.scss');                                        
+        $scss .= file_get_contents($CFG->dirroot . '/theme/bcgovpsa/scss/bcgovpsa.scss');
     } else if ($filename == 'plain.scss') {                                                                                         
         // We still load the default preset files directly from the boost theme. No sense in duplicating them.                      
         $scss .= file_get_contents($CFG->dirroot . '/theme/boost/scss/preset/plain.scss');                                          
