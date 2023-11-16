@@ -5,18 +5,35 @@
 * @author: allan.haggett@gov.bc.ca
 *
 */
-.dropdown-toggle::after,
-.editmode-switch-form label,
-.primary-navigation .navigation .nav-link {
+
+/** 
+ * The primary nav is set to the bottom of the parent
+ * so when we apply the below things look out of whack.
+ * I don't have time to figure this out right now, and
+ * actually like the height of the stock bootstrap navbar.
+ */
+
+/**
+#primarynav {
+    padding: 4em 0; 
+} 
+*/
+
+#primarynav .dropdown-toggle::after,
+#primarynav .editmode-switch-form label,
+#primarynav .nav-link {
     color: #FFF;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover, 
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: #0f6cbf;
+#primarynav .nav-link:hover, 
+#primarynav .nav-link:focus {
+    background-color: #004477;
+    color: #FFF;
 }
-.moremenu .nav-link.active,
-.moremenu .nav-link.active:focus, 
-.moremenu .nav-link.active:hover {
+
+#primarynav .moremenu .nav-link.active,
+#primarynav .moremenu .nav-link.active:focus, 
+#primarynav .moremenu .nav-link.active:hover {
     border-bottom-color: #eda927;
+    font-weight: bold;
 }
