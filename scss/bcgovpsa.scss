@@ -28,6 +28,9 @@
 #primarynav .login a {
     color: #FFF;
 }
+#primarynav .divider {
+    visibility: hidden;
+}
 
 #primarynav .nav-link:hover, 
 #primarynav .nav-link:focus {
