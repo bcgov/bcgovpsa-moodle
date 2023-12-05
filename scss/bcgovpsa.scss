@@ -19,9 +19,13 @@
 } 
 */
 
+#usernavigation .navbar.fixed-top .divider {
+    background-color: #114477 !important;
+}
 #primarynav .dropdown-toggle::after,
 #primarynav .editmode-switch-form label,
-#primarynav .nav-link {
+#primarynav .nav-link,
+#primarynav .login a {
     color: #FFF;
 }
 
