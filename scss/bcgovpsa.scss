@@ -6,22 +6,6 @@
 *
 */
 
-/** 
- * The primary nav is set to the bottom of the parent
- * so when we apply the below things look out of whack.
- * I don't have time to figure this out right now, and
- * actually like the height of the stock bootstrap navbar.
- */
-
-/**
-#primarynav {
-    padding: 4em 0; 
-} 
-*/
-
-#usernavigation .navbar.fixed-top .divider {
-    background-color: #114477 !important;
-}
 #primarynav .dropdown-toggle::after,
 #primarynav .editmode-switch-form label,
 #primarynav .nav-link,
