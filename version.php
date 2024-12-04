@@ -37,7 +37,7 @@ $plugin->component = 'theme_bcgovpsa';
 
 // This is a list of plugins, this plugin depends on (and their versions).
 $plugin->dependencies = [
-    'theme_boost' => 2023042400
+    'theme_boost' => 2022112800
 ];
 
 // This is a stable release.
