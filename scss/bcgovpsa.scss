@@ -11,13 +11,12 @@
     font-weight: 400;
     font-display: swap; /* or block, swap, fallback, optional */
     src: local('BCSans'),
-           url('/theme/bcgovpsa/fonts/BCSans-Regular.woff2') format('woff2');
+            url('/theme/bcgovpsa/fonts/BCSans-Regular.woff2') format('woff2');
     unicode-range: U+000-5FF; /* Latin glyphs */
-  }
+}
 
 :root,
 body {
-    --font-family-sans-serif: "BCSans";
     font-family: "BCSans";
 }
 
